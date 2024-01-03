@@ -2,6 +2,10 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
+
+alias rustscan='docker run -it --rm --name rustscan rustscan/rustscan:latest'
+alias john='~/src/john/run/john'
+
 export ANDROID_HOME=/home/froes/Android/Sdk
 export PATH=~/.config/composer/vendor/bin:$PATH
 export PATH=~/go/bin:$PATH
